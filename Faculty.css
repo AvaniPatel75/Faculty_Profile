@@ -1,0 +1,53 @@
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0 0; 
+}
+
+.btn {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: white;
+  color: blue;
+  transform: scale(1.05); 
+
+}
+.row {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.card {
+  display: flex;
+  flex-direction: column; 
+  height: 100%;
+}
+
+.card-body {
+  flex-grow: 2; 
+}
+
+.card img {
+  max-height: 15rem;
+  object-fit: cover; 
+}
+#header{
+  background-color: whitesmoke;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+#header:hover {
+  color: rgb(165, 52, 52); 
+  transform: scale(1.05); 
+}
+
+
+  

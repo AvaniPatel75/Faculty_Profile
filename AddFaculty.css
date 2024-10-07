@@ -1,0 +1,43 @@
+/* Add styles for the card (form) */
+.card-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: palegoldenrod;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for the card */
+.card-form:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Input field styles */
+.card-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/* Button styles */
+.submit-btn {
+    padding: 10px 15px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+    align-self: center;
+}
+
+/* Button hover effect */
+.submit-btn:hover {
+    background-color: #1565c0;
+}
